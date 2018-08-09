@@ -1,0 +1,31 @@
+<h1>Create new Visit</h1>
+<br>
+<div class="container">
+  <form [formGroup]="myform">
+
+    <div class="form-group row">
+      <label for="datevisit" class="col-sm-2 col-form-label" required>Date:</label>
+      <div class="col-sm-6">
+        <input  type="date" ng-model="date" class="form-control"
+               id="datevisit" name="datevisit" formControlName="datevisit" required>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="lastname" class="col-sm-2 col-form-label" required>INFO:</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control"
+               id="lastname" name="lastname" formControlName="lastname" required>
+      </div>
+    </div>
+
+    <br>
+    <div>
+      <div>
+        <button type="button" class="btn btn-primary btn-lg" (click)="createNewVisit()">Add visit
+        </button>
+      </div>
+    </div>
+
+  </form>
+</div>

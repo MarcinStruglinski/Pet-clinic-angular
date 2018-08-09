@@ -21,6 +21,7 @@ import { UserComponent } from './user/user.component';
 import {OwnerCreateComponent} from './owner/owner-create/owner-create.component';
 import { ActivateComponent } from './auth/activate/activate.component';
 import { PetDetailsComponent } from './pet/pet-details/pet-details.component';
+import { AddPetComponent } from './pet/add-pet/add-pet.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { PetDetailsComponent } from './pet/pet-details/pet-details.component';
     OwnerCreateComponent,
     ActivateComponent,
     OwnerCreateComponent,
-    PetDetailsComponent
+    PetDetailsComponent,
+    AddPetComponent
   ],
   imports: [
     BrowserModule,

@@ -25,6 +25,7 @@ export class OwnerListComponent implements OnInit {
 
   onOwnerClicked(owner: Owner) {
     this.selectedOwner = owner;
+
   }
 
 }
